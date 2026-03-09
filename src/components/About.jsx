@@ -15,12 +15,12 @@ export default function About() {
   }, []);
 
   const stats = [
-    { value: "1+", label: "Years Building" },
-    { value: "10+", label: "Projects Shipped" },
+    { value: "2+", label: "Years Building" },
+    { value: "3+", label: "Projects Done" },
     { value: "5+", label: "Technologies" },
   ];
 
-  const tags = ["React", "Next.js", "TailwindCSS", "MySQL", "JavaScript", "TypeScript"];
+  const tags = ["React", "Next.js", "TailwindCSS", "MySQL", "JavaScript", "Java", "PHP"];
 
   return (
     <>
@@ -62,9 +62,9 @@ export default function About() {
                 }`}
                 style={{ fontFamily: "'Playfair Display', serif" }}
               >
-                Crafting interfaces
+                Building Systems
                 <br />
-                <span className="text-[#c9a96e]">with purpose.</span>
+                <span className="text-[#c9a96e]">with intent.</span>
               </h2>
 
               <p
@@ -72,7 +72,7 @@ export default function About() {
                   visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
                 }`}
               >
-                I'm a BCA graduate and aspiring developer who enjoys building
+                I'm a BCA student and aspiring developer who enjoys building
                 modern, responsive web applications. I care deeply about the
                 details — clean code, thoughtful UI, and experiences that
                 actually feel good to use.
@@ -114,10 +114,10 @@ export default function About() {
 
                 <ul className="space-y-4">
                   {[
-                    { icon: "🎓", label: "Education", value: "BCA Graduate" },
-                    { icon: "📍", label: "Location", value: "Nepal" },
-                    { icon: "💼", label: "Focus", value: "Frontend Development" },
-                    { icon: "🌱", label: "Currently learning", value: "TypeScript & System Design" },
+                    { icon: "🎓", label: "Education", value: "BCA Pre-Graduate" },
+                    { icon: "📍", label: "Location", value: "Nepal, Kathmandu" },
+                    { icon: "💼", label: "Focus", value: "Full Stack Development" },
+                    { icon: "🌱", label: "Currently learning", value: "TypeScript" },
                   ].map(({ icon, label, value }) => (
                     <li key={label} className="flex items-start gap-3 text-sm">
                       <span className="text-base mt-px">{icon}</span>
