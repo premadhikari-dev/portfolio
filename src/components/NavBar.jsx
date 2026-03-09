@@ -16,7 +16,7 @@ export default function Navbar() {
     { label: "About",    href: "#about" },
     { label: "Skills",   href: "#skills" },
     { label: "Projects", href: "#projects" },
-    { label: "Resume",   href: "/resume.pdf", download: true },
+    { label: "Resume",   href: "/prem_adhikari_cv.pdf", download: true },
     { label: "Contact",  href: "#contact" },
   ];
 

@@ -8,7 +8,7 @@ export default function Footer() {
     { label: "Skills",      href: "#skills" },
     { label: "Projects",    href: "#projects" },
     { label: "Contact",     href: "#contact" },
-    { label: "Download CV", href: "/resume.pdf", download: true },
+    { label: "Download CV", href: "/prem_adhikari_cv.pdf", download: true },
   ];
 
   const socials = [
