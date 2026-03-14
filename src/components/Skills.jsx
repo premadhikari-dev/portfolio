@@ -6,15 +6,15 @@ import {
 } from "react-icons/si";
 
 const skills = [
-  { name: "HTML",        category: "Foundation", level: 95, icon: <SiHtml5 className="w-5 h-5" /> },
-  { name: "CSS",         category: "Foundation", level: 90, icon: <SiCss className="w-5 h-5" /> },
-  { name: "JavaScript",  category: "Foundation", level: 85, icon: <SiJavascript className="w-5 h-5" /> },
-  { name: "React",       category: "Frontend",   level: 88, icon: <SiReact className="w-5 h-5" /> },
-  { name: "Next.js",     category: "Frontend",   level: 82, icon: <SiNextdotjs className="w-5 h-5" /> },
-  { name: "TailwindCSS", category: "Frontend",   level: 90, icon: <SiTailwindcss className="w-5 h-5" /> },
-  { name: "PHP",         category: "Backend",    level: 70, icon: <SiPhp className="w-5 h-5" /> },
-  { name: "MySQL",       category: "Backend",    level: 72, icon: <SiMysql className="w-5 h-5" /> },
-  { name: "Git",         category: "Tooling",    level: 80, icon: <SiGit className="w-5 h-5" /> },
+  { name: "HTML",        category: "Foundation", icon: <SiHtml5 className="w-5 h-5" /> },
+  { name: "CSS",         category: "Foundation", icon: <SiCss className="w-5 h-5" /> },
+  { name: "JavaScript",  category: "Foundation", icon: <SiJavascript className="w-5 h-5" /> },
+  { name: "React",       category: "Frontend",   icon: <SiReact className="w-5 h-5" /> },
+  { name: "Next.js",     category: "Frontend",   icon: <SiNextdotjs className="w-5 h-5" /> },
+  { name: "TailwindCSS", category: "Frontend",   icon: <SiTailwindcss className="w-5 h-5" /> },
+  { name: "PHP",         category: "Backend",    icon: <SiPhp className="w-5 h-5" /> },
+  { name: "MySQL",       category: "Backend",    icon: <SiMysql className="w-5 h-5" /> },
+  { name: "Git",         category: "Tooling",    icon: <SiGit className="w-5 h-5" /> },
 ];
 
 const categories = ["All", "Foundation", "Frontend", "Backend", "Tooling"];
@@ -124,14 +124,6 @@ export default function Skills() {
                 <p className="relative text-[0.95rem] font-medium text-[#0a0a0a] mb-3 tracking-[-0.01em]">
                   {skill.name}
                 </p>
-
-                <div className="relative h-[2px] bg-black/[0.06] rounded-full overflow-hidden">
-                  <div
-                    className="h-full bg-[#c9a96e] rounded-full transition-all duration-1000 ease-out"
-                    style={{ width: visible ? `${skill.level}%` : "0%" }}
-                  />
-                </div>
-                <p className="relative text-[0.65rem] text-[#bbb] mt-1.5 text-right">{skill.level}%</p>
               </div>
             ))}
           </div>
