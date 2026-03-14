@@ -80,7 +80,7 @@ export default function Skills() {
           </h2>
 
           <p className={`text-[0.9rem] text-[#888] mb-10 transition-all duration-700 delay-200 ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}>
-            Technologies I've worked with across the stack.
+            Technologies I have worked with across the stack.
           </p>
 
           <div className={`flex flex-wrap gap-2 mb-12 transition-all duration-700 delay-300 ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}>
