@@ -14,7 +14,6 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Prem Adhikari",
   description: "Personal portfolio of Prem Adhikari",
-  <meta name="google-site-verification" content="Fk_n8RAemZUWCrYciOe6cbEbMdqeltNVEcPFDLIvzEg" />
 };
 
 export default function RootLayout({ children }) {
